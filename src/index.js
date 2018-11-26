@@ -133,6 +133,9 @@ class QRCodeCanvas extends React.PureComponent<QRProps> {
       ...otherProps
     } = this.props;
     const canvasStyle = {height: size, width: size, ...style};
+    
+    console.log(this.props)
+    
     return (
       <canvas
         style={canvasStyle}
